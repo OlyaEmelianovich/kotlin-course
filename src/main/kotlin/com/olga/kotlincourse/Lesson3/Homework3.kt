@@ -7,33 +7,33 @@ class Homework3 {
 // Название мероприятия
 val name: String = "Hackathon Survival"
 // Дата провередения
-var date: String = ""
+var date: String = "21.08.2024"
 //Место проведения
-var place: String = ""
+val place: String = "Minsk"
 //Подробный бюджет мероприятия, включая расходы на оборудование, кейтеринг и другие операционные расходы.
-public var budget: String = ""
-    get() = field
-
+private val  budget: String =  "10000"
 //Количество участников
 var participants: Int = 0
+    get() = field
+    private set(value) {field=value}
 //Длительность хакатона
-var duration: Int = 5
+var duration: Long = 5*60*60
 //Контактная информация и условия соглашений с поставщиками пищи, оборудования и других услуг.
-val information: String = ""
+private val information: String = ""
 //Текущее состояние хакатона (статус)
-var status: String = ""
+var status: String = "Не начат"
 //Список спонсоров
-var sponsors: String = ""
+val sponsors: String = "Спонсоры"
 //Текущий уровень доступа к интернету
-var access: String = ""
+var internetAccess: Int= 10
 //Информация о транспортировке оборудования, распределении ресурсов и координации между различными командами поддержки.
 var equipment: String = ""
 //Количество команд
-var team: Int= 10
+var team: Int= 0
 //Перечень задач
-var taskScope: String= ""
+var taskScope: String= "Точное количество задач"
 //План эвакуации
-val plan: String= ""
+val plan: String= "Точый план"
 //Список доступного оборудования
 val availableEquipment: String = ""
 //Список свободного оборудования
@@ -42,4 +42,4 @@ val freeEquipment: String = ""
 //План мероприятий на случай сбоев
 //Список экспертов и жюри
 //Методы и процедуры для сбора отзывов от участников и гостей, включая анонимные опросы и интервью.
-
+val mood: String by lazy {} // Настроение по окончанию
