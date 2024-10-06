@@ -1,6 +1,5 @@
 package com.olga.com.olga.kotlincourse.lesson5
 
-Простой уровень
 (12 / 3 > 3) && (5 * 2 == 10) пример решения: true && true = true
 (14 - 4 <= 10) || (6 / 2 != 3) true || false = true
 (9 + 1 == 10) && (8 % 2 == 0) true && false = false
@@ -13,7 +12,6 @@ package com.olga.com.olga.kotlincourse.lesson5
 (10 % 2 == 0) || (5 - 3 != 1) false || true = true
 
 
-Сложный уровень
 ((4 * 3) < 13) && !(8 / 4 == 2) || (10 % 3 != 1) true && false || false = false
 ((14 - 5) > 8) || (9 / 3 == 3) && !(7 + 0 != 7) true|| true && true = true
 ((2 + 3) <= 5) && (16 / 4 == 4) || !(6 % 2 == 0) false && true || false = false
@@ -21,7 +19,6 @@ package com.olga.com.olga.kotlincourse.lesson5
 ((12 / 4) >= 3) || (7 % 2 != 1) && !(3 + 3 == 6) true || false && false = true
 
 
-Продвинутый уровень
 (var f = 6; --f >= 5) || ((3 * 2 == 6) && (9 - 4 != 5)) true || true && false = true
 ((var g = 0; g++ != 0) && (4 + 2 == 6)) || (5 / 1 == 5) false && true || true = true
 (var h = 7; h-- > 6) || (8 + 1 == 9) && (3 % 2 != 1) true || true && false = true
